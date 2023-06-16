@@ -115,7 +115,7 @@ COMMON STYLES
 ---------------------*/
 
 body {
-font-family: 'AkzidenzGrotesk-Medium',Arial ;
+    font-family: 'AkzidenzGrotesk-Medium', Arial;
     font-size: 14px;
     line-height: 24px;
     color: #555;
@@ -1366,7 +1366,7 @@ blockquote.style2:after {
 }
 
 .mini-cart .count {
-    background-color: #817f7f;
+    background-color: #8DB55C;
     border-radius: 50%;
     color: #fff;
     font-size: 10px;
@@ -1683,7 +1683,12 @@ blockquote.style2:after {
 /* HEADER STYLE 3 */
 
 .header.style3 .logo {
-    padding-top: 50px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.header.style3 .logo img {
+    height: 100px;
 }
 
 .header.style3 .top-header {
@@ -4124,7 +4129,7 @@ ICON
 }
 
 .element-icon.style4 .title strong {
-font-family: 'AkzidenzGrotesk';
+    font-family: 'AkzidenzGrotesk';
     font-weight: 700;
 }
 
@@ -4345,7 +4350,7 @@ FOOTER
 
 .footer.style2 .widget .widget-title {
     color: #333;
-font-family: 'AkzidenzGrotesk';
+    font-family: 'AkzidenzGrotesk';
 }
 
 .footer.style2 .contact-info .phone {
@@ -4909,7 +4914,7 @@ font-family: 'AkzidenzGrotesk';
     content: '';
     width: 50px;
     height: 2px;
-    background-color: #817f7f;
+    background-color: #8DB55C;
     display: block;
     margin: 0 auto;
     margin-top: 5px;
@@ -5277,7 +5282,7 @@ font-family: 'AkzidenzGrotesk';
 }
 
 .lastest-blog.style5 .metas .date .day {
-font-family: 'AkzidenzGrotesk';
+    font-family: 'AkzidenzGrotesk';
     font-weight: 700;
     font-size: 24px;
 }
@@ -5579,7 +5584,7 @@ font-family: 'AkzidenzGrotesk';
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #817f7f;
+    background-color: #8DB55C;
     margin: 0 auto;
     margin-top: 8px;
     content: '';
@@ -7738,7 +7743,7 @@ BLOG PAGE
 
 .block-text .primary {
     font-size: 18px;
-font-family: 'AkzidenzGrotesk';
+    font-family: 'AkzidenzGrotesk';
     font-weight: 700;
 }
 
@@ -7869,7 +7874,7 @@ font-family: 'AkzidenzGrotesk';
     right: 10px;
     bottom: 70px;
     border-radius: 50%;
-    background-color: #817f7f;
+    background-color: #8DB55C;
     display: none;
     color: #fff;
     text-align: center;
@@ -7905,7 +7910,7 @@ font-family: 'AkzidenzGrotesk';
     text-transform: uppercase;
     font-size: 12px;
     color: #666;
-font-family: 'AkzidenzGrotesk';
+    font-family: 'AkzidenzGrotesk';
     width: 100%;
     text-decoration: underline;
     text-align: center;
@@ -9002,15 +9007,15 @@ RESPONSIVE
     .element-icon.style4 .content {
         text-align: center;
     }
-    .wdth-person{
+    .wdth-person {
         width: 80% !important;
         display: flex;
         margin: auto;
     }
-    .text-person1{
+    .text-person1 {
         text-align: center;
     }
-    .back-top5{
+    .back-top5 {
         margin-bottom: 18px;
     }
 }
@@ -9436,7 +9441,7 @@ RESPONSIVE
     background-color: #fff;
     border: 1px solid #333;
     border-left: 0;
-    color: #817f7f;
+    color: #8DB55C;
     padding: 11px 15px 13px;
     font-size: 14px;
     margin-top: 15px;
@@ -9464,7 +9469,7 @@ RESPONSIVE
 
 li.info-pts {
     border-radius: 25px;
-    background-color: #817f7f;
+    background-color: #8DB55C;
     padding: 11px 18px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -9475,13 +9480,16 @@ li.info-pts {
 .lst-sty {
     list-style: none;
 }
-.fnt-16{
+
+.fnt-16 {
     font-size: 16px;
 }
+
 .fnt-600 {
     font-weight: 600;
 }
-.fnt-person{
+
+.fnt-person {
     font-size: 18px;
     font-weight: 600;
     margin: 10px 0px;
@@ -9827,71 +9835,74 @@ li.info-pts {
 }
 
 .title-metas {
-	font-weight: 500;
-	font-size: 23px;
-	display: inline-block;
-	clear: both;
-	float: none;
-	border-right: 1px solid #333333;
-	padding-right: 30px;
-	margin: 0 20px 20px;
+    font-weight: 500;
+    font-size: 23px;
+    display: inline-block;
+    clear: both;
+    float: none;
+    border-right: 1px solid #333333;
+    padding-right: 30px;
+    margin: 0 20px 20px;
 }
 
 @media (max-width: 992px) {
-	.title-metas {
-		border: none;
-		margin-top: 20px;
-		margin-left: 0;
-	}
+    .title-metas {
+        border: none;
+        margin-top: 20px;
+        margin-left: 0;
+    }
 
 }
 
 .block-chart p {
-	text-transform: uppercase;
-	line-height: 27px;
-	font-weight: 300;
-	letter-spacing: 1px;
-	font-size: 14px;
-	color: #606366;
-	border-top: 1px solid #e5e5e5;
-	border-bottom: 1px solid #e5e5e5;
-	padding: 20px 0;
-	margin: 0
+    text-transform: uppercase;
+    line-height: 27px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #606366;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+    margin: 0
 }
 
 .block-chart p b {
-	font-weight: 700;
-	color: #000;
-	font-size: 15px;
-	text-transform: initial;
+    font-weight: 700;
+    color: #000;
+    font-size: 15px;
+    text-transform: initial;
 }
 
-.back-gray{
+.back-gray {
     background-color: #f7f7f7;
     padding: 30px 0px;
     margin-bottom: 30px;
 }
 
-.back-top5{
+.back-top5 {
     background-color: #ffff;
     padding: 10px;
     border-radius: 4px;
     box-shadow: 0 4px 4px 2px rgb(0 0 0 / 10%);
 }
 
-.wdth-person{
+.wdth-person {
     width: 100%;
 }
-.line-heig{
+
+.line-heig {
     margin-bottom: 16px;
     line-height: 18px;
 }
+
 .e-tittle {
     margin-top: 10px;
     margin-bottom: 0;
     font-weight: 600;
     color: #5f7800;
 }
+
 .header.style3 .main-menu > li:nth-last-child(3) {
     display: none;
 }
